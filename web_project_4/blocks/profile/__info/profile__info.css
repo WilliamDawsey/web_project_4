@@ -1,0 +1,17 @@
+.profile__info {
+  display: grid;
+  grid-template-columns: 373px 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-template-areas:
+    "name button"
+    "job job";
+  margin-left: 30px;
+  margin-right: auto;
+}
+
+@media screen and (max-width: 750px) {
+  .profile__info {
+    grid-template-columns: 196px 1fr;
+    grid-template-areas: "name button";
+  }
+}
