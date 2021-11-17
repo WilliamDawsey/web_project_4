@@ -1,0 +1,10 @@
+.footer__text {
+  color: #545454;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 22px;
+  align-self: flex-start;
+  margin: 0;
+  padding: 0;
+}
