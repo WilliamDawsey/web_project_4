@@ -1,5 +1,5 @@
 .elements__heart {
-  background-image: url("/images/Heart__empty.png");
+  background-image: url("/images/heart-empty.svg");
   background-size: 21px 19px;
   background-repeat: no-repeat;
   background-color: transparent;
@@ -16,5 +16,5 @@
 }
 
 .elements__heart:active {
-  background-image: url("/images/Heart__full.png");
+  background-image: url("/images/heart-full.svg");
 }

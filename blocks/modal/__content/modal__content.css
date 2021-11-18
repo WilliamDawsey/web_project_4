@@ -1,7 +1,7 @@
 .modal__content {
   background-color: white;
   max-width: 358px;
-  padding: 36px;
+  padding: 34px 36px 36px;
   border-radius: 10px;
   position: relative;
 }
@@ -9,6 +9,6 @@
 @media screen and (max-width: 625px) {
   .modal__content {
     min-width: 188px;
-    padding: 22px 25px;
+    padding: 25px 22px;
   }
 }
