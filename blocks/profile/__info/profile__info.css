@@ -10,7 +10,7 @@
   margin-right: auto;
 }
 
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 880px) {
   .profile__info {
     grid-template-columns: 196px 1fr;
     grid-template-areas: "name button";

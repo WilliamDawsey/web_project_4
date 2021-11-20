@@ -12,8 +12,10 @@ const profileDescription = document.querySelector("#profile-description");
 
 /*open modal*/
 function openFormModal() {
-  openModalButton.addEventListener("click", () => {
+  openModalButton.addEventListener("click", ()=> {
     editProfileModal.classList.add("modal_open");
+    nameInput.value = profileName.textContent;
+    descriptionInput.value = profileDescription.textContent;
   });
 }
 
@@ -31,12 +33,10 @@ function saveFormInput() {
 function closeFormModal() {
   editProfileCloseButton.addEventListener("click", () => {
     editProfileModal.classList.remove("modal_open");
-    editProfileForm.reset();
   });
   editProfileModal.addEventListener("click", (e) => {
     if (e.target === editProfileModal) {
       editProfileModal.classList.remove("modal_open");
-      editProfileForm.reset();
     }
   });
 }

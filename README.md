@@ -1,5 +1,22 @@
-# Web Project 4
+#**Web Project 4: Around The U.S.**
+## by William Dawsey
 
-This project implements javascript by opening and closing a modal window. It also uses the flexgrid tecnique as well from a Figma spec sheet
+This project is a socaial media site that includes an interactive profile and several location elements with their own info and like buttons.
 
-link to page: https://williamdawsey.github.io/web_project_4/
+##Technologies and Techniques used:
+*BEM Methodology
+*flexbox
+*flexgrid
+*at-rules
+*opening/closing modal
+*creating varriables
+*querrySelectors
+*functions
+*eventListeners
+*if statements
+*input field values
+*callback functions
+
+
+##Link to page:
+ https://williamdawsey.github.io/web_project_4/
