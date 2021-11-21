@@ -11,6 +11,6 @@
     flex-direction: column;
     align-content: center;
     max-width: 282px;
-    margin-top: 42px;
+    margin: 42px auto 36px;
   }
 }

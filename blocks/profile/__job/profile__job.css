@@ -3,6 +3,10 @@
   font-style: normal;
   font-size: 18px;
   line-height: 21.78px;
+  max-width: 415px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
   margin: 0;
   padding: 0;
   grid-area: "job";
@@ -14,5 +18,6 @@
     font-size: 14px;
     line-height: 17px;
     text-align: center;
+    max-width: 196px;
   }
 }

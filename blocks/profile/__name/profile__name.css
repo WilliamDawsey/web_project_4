@@ -3,6 +3,10 @@
   font-style: normal;
   font-size: 42px;
   line-height: 48px;
+  max-width: 373px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
   margin: 22px 0 4px;
   padding: 0;
   grid-area: "name";
@@ -16,6 +20,7 @@
     align-self: center;
     font-size: 22px;
     line-height: 27px;
+    max-width: 196px;
     margin: 0 0 0 auto;
   }
 }
