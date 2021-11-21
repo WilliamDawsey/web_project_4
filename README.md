@@ -1,4 +1,4 @@
-** Web Project 4: Around The U.S. **
+# Web Project 4: Around The U.S.
 ## by William Dawsey 
 
 This project is a socaial media site that includes an interactive profile and several location elements with their own info and like buttons.
